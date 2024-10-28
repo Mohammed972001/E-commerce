@@ -7,7 +7,7 @@ export default function Hometask() {
     <div
       className="w-full min-h-screen flex flex-col items-center"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("/public/assets/taskbg.jpg")`, // طبقة تعتيم فوق الخلفية
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("assets/taskbg.jpg")`, // طبقة تعتيم فوق الخلفية
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
