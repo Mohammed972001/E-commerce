@@ -2,7 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@font-face {
+    font-family: 'AlgerianMesa';
+    src: url('/public/assets/Algerian Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 :root {
  
  
