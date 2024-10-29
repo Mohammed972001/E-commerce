@@ -2,18 +2,19 @@ import React from "react";
 import NavBar from "./navbar";
 import HeroSection from "./herosection";
 
+
 export default function Hometask() {
   return (
     <div
-      className="w-full min-h-screen flex flex-col items-center"
+      className="w-full min-h-[100vh]  flex flex-col items-center "
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("assets/taskbg.jpg")`, // طبقة تعتيم فوق الخلفية
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("assets/taskbg.jpg")`, // Background layer with slight overlay
+        backgroundSize: "cover", // Cover background by default for larger screens
+        backgroundPosition: "center", // Center background by default,
       }}
     >
       <div
-        className="absolute w-[98%] h-[90%]
+        className="absolute  w-[98%] h-[90%]
       bg-white bg-opacity-0 rounded-[50px]
       shadow-[0_25px_45px_rgba(0,0,0,0.2)] border border-white border-opacity-0
       border-r-2 border-r-white border-r-opacity-20 border-b-2 border-b-white border-b-opacity-20"
@@ -23,6 +24,7 @@ export default function Hometask() {
       >
       <NavBar/>
       <HeroSection/>
+   
       </div>
     </div>
   );
