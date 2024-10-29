@@ -28,23 +28,23 @@ export default function HeroSection() {
       </button>
     </div>
     <div className="flex  justify-between items-center text-white text-opacity-80 w-full px-4 lg:pl-20 lg:pr-72 ">
-  <div className="text-center text-xs flex ">
-    <span className=" text-3xl  md:text-5xl px-2 lg:px-5">24</span>
-    <p className="text-start">
+  <div className="text-center   flex ">
+    <span className=" text-xl  md:text-5xl px1 lg:px-5">24</span>
+    <p className="text-start text-xs md:text-lg  ">
       Years <br />
       Experience
     </p>
   </div>
-  <div className="text-center text-xs flex ">
-  <span className=" text-3xl  md:text-5xl px-2 lg:px-5">1M</span>
-    <p className="text-start">
+  <div className="text-center  flex ">
+  <span className=" text-xl  md:text-5xl px-1 lg:px-5">1M</span>
+    <p className="text-start text-xs md:text-lg ">
       User's <br />
       Satisfaction
     </p>
   </div>
-  <div className="text-center text-xs flex ">
-    <span className=" text-3xl  md:text-5xl px-2 lg:px-5">10k</span>
-    <p className="text-start">
+  <div className="text-center  flex ">
+    <span className=" text-xl  md:text-5xl px-1 lg:px-5">10k</span>
+    <p className="text-start text-xs md:text-lg ">
       Official <br /> Subscribers
     </p>
   </div>
